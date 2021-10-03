@@ -5,6 +5,7 @@ import {widthPercentageToDP as w, heightPercentageToDP as h} from 'react-native-
 import {HeaderText} from '../component/HeaderText';
 import {ContentText} from '../component/ContentText';
 import { Input } from "../component/Input";
+import { Btn } from "../component/Btn";
 
 export class Signup3 extends React.Component{
     render(){
@@ -30,20 +31,7 @@ export class Signup3 extends React.Component{
                     justifyContent:'center',
                     marginTop:'40%'
                 }}>
-                <TouchableOpacity style={{
-                        height:h('8%'),
-                        width:w('70%'),
-                        backgroundColor:'#2563EA',
-                        borderRadius:11,
-                        alignItems:'center',
-                        justifyContent:'center',
-                    }}>
-                        <Text style={{
-                            color:'#FFFFFF',
-                            fontWeight:'bold',
-                            fontSize: 16,
-                        }}> Next </Text>
-                    </TouchableOpacity>
+                <Btn title={'Next'} />
                 </View>
                
             </View>
