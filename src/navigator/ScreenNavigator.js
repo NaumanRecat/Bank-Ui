@@ -11,6 +11,7 @@ import { Signup2 } from '../screen/Signup2';
 import { Signup3 } from '../screen/Signup3';
 import { Signup7 } from '../screen/Signup7';
 import { Signup7_3 } from '../screen/Signup7_3';
+import { Signup7_0} from '../screen/Signup7_0';
 
 
 const Stack = createNativeStackNavigator();
@@ -19,6 +20,7 @@ export const ScreenNavigator =()=>  {
   return (
     <NavigationContainer>
       <Stack.Navigator>
+      <Stack.Screen name="Signup7_0" component={Signup7_0}  options={{headerShown:false}} />
       <Stack.Screen name="Signup7_3" component={Signup7_3}  options={{headerShown:false}} />
       <Stack.Screen name="Signup7" component={Signup7}  options={{headerShown:false}} />
       <Stack.Screen name="Signup3" component={Signup3}  options={{headerShown:false}} />
