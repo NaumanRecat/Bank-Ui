@@ -12,7 +12,12 @@ import { Btn } from "../component/Btn";
 export class Signup8  extends React.Component{
     render(){
         return(
-            <Text> Testing</Text>
+            <View style={{
+                flex:1,
+            }}>
+                <HeaderText titles={'Tell us about your sport'} />
+                
+            </View>
         )
     }
 }
