@@ -10,12 +10,7 @@ import { Input } from "../component/Input";
 import { Btn } from "../component/Btn";
 
 export class Signup7_5 extends React.Component{
- 
-  
-
-
-
-
+    
     render(){
         return(
             <View>
