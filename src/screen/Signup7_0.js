@@ -31,7 +31,7 @@ export class Signup7_0 extends React.Component{
                 }}>
                 <DatePicker
           style={{
-            width: 200,
+            width: w('70%'),
             marginTop: 20,
           }}
           date={this.state.date} // Initial date from state
