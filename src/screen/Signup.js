@@ -55,7 +55,7 @@ export class Signup extends React.Component{
                         height:h('1%'),
                     }}  />
 
-                    <TouchableOpacity style={{
+                    <TouchableOpacity onPress={()=>{this.props.navigation.navigate('Signup1')}} style={{
                         height:h('8%'),
                         width:w('70%'),
                         backgroundColor:'#7C857E',
@@ -64,7 +64,7 @@ export class Signup extends React.Component{
                         justifyContent:'center',
                     }}>
                         <Text style={{
-                            color:'Black',
+                            color:'#000000',
                             fontWeight:'bold',
                             fontSize: 16,
                         }}> Log In </Text>

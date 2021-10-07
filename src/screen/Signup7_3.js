@@ -50,7 +50,7 @@ export class Signup7_3 extends React.Component{
                     alignItems:'center',
                     marginTop: h('10%'),
                 }}>
-                <Btn title={'Confirm'} />
+                <Btn Button={() => this.props.navigation.navigate('Signup7_5')}  title={'Confirm'} />
                 </View>
 
             </View>

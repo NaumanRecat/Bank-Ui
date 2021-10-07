@@ -40,14 +40,14 @@ export class Signup4 extends React.Component{
                             color:'#FFFFFF',
                             fontWeight:'bold',
                             fontSize: 16,
-                        }}> Sign up</Text>
+                        }}> Text me</Text>
                     </TouchableOpacity>
 
                     <View style={{
                         height:h('1%'),
                     }}  />
 
-                    <TouchableOpacity style={{
+                    <TouchableOpacity onPress={()=> this.props.navigation.navigate('Signup5')} style={{
                         height:h('8%'),
                         width:w('70%'),
                         backgroundColor:'#7C857E',
@@ -59,7 +59,7 @@ export class Signup4 extends React.Component{
                             color:'#FFFFFF',
                             fontWeight:'bold',
                             fontSize: 16,
-                        }}> Log In </Text>
+                        }}> Email me </Text>
                     </TouchableOpacity>
                 </View>
 

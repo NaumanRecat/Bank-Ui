@@ -8,7 +8,7 @@ export class Btn extends React.Component{
             <View style={{
                 flex:1,
             }}>
-                <TouchableOpacity style={{
+                <TouchableOpacity  onPress={this.props.Button} style={{
                         height:h('8%'),
                         width:w('70%'),
                         backgroundColor:'#2563EA',

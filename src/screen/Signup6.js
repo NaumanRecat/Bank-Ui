@@ -26,7 +26,7 @@ export class Signup6 extends React.Component{
             <Input placeholder={'State'} />
             </View>
 
-            <TouchableOpacity style={{
+            <TouchableOpacity onPress={()=>{this.props.navigation.navigate('Signup7_0')}} style={{
                         height:h('8%'),
                         width:w('70%'),
                         backgroundColor:'#2563EA',

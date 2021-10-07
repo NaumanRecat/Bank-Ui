@@ -30,7 +30,7 @@ export class Signup2 extends React.Component{
                     justifyContent:'center',
                     marginTop:'40%'
                 }}>
-                <TouchableOpacity style={{
+                <TouchableOpacity onPress={()=>{this.props.navigation.navigate('Signup3')}} style={{
                         height:h('8%'),
                         width:w('70%'),
                         backgroundColor:'#2563EA',

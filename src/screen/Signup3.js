@@ -31,7 +31,7 @@ export class Signup3 extends React.Component{
                     justifyContent:'center',
                     marginTop:'40%'
                 }}>
-                <Btn title={'Next'} />
+                <Btn Button={() => this.props.navigation.navigate('Signup4')} title={'Next'} />
                 </View>
                
             </View>

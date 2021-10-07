@@ -49,7 +49,7 @@ export class Signup1 extends React.Component{
                     alignItems:'center',
                     justifyContent:'center',
                 }}>
-                <Btn title={'Next'} />
+                <Btn Button={() => this.props.navigation.navigate('Signup2')} title={'Next'} />
                 </View>
                 
             </View>

@@ -86,7 +86,7 @@ export class Signup8  extends React.Component{
                 marginRight: h('10%'),
                 marginTop:h('3%'),
             }}>
-            <Btn title={'Confirm'} />
+            <Btn Button={() => this.props.navigation.navigate('Signup7_3')}  title={'Confirm'} />
             </View>
            
             </View>
