@@ -23,20 +23,22 @@ export const ScreenNavigator =()=>  {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-      <Stack.Screen name="Signup9" component={Signup9}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup8" component={Signup8}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup1" component={Signup1}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup7_5" component={Signup7_5}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup7_0" component={Signup7_0}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup7_3" component={Signup7_3}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup7" component={Signup7}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup3" component={Signup3}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup2" component={Signup2}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup6" component={Signup6}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup5" component={Signup5}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup4" component={Signup4}  options={{headerShown:false}} />
-      <Stack.Screen name="Welcome" component={Welcome}  options={{headerShown:false}} />
+
       <Stack.Screen name="Signup" component={Signup}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup1" component={Signup1}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup2" component={Signup2}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup3" component={Signup3}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup4" component={Signup4}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup5" component={Signup5}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup6" component={Signup6}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup7_0" component={Signup7_0}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup7" component={Signup7}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup7_3" component={Signup7_3}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup7_5" component={Signup7_5}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup8" component={Signup8}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup9" component={Signup9}  options={{headerShown:false}} />
+      <Stack.Screen name="Welcome" component={Welcome}  options={{headerShown:false}} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
