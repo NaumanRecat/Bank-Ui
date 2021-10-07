@@ -3,19 +3,19 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import { Signup } from '../screen/Signup';
-import { Welcome } from '../screen/Welcome';
+import { Signup1} from '../screen/Signup1';
+import { Signup2 } from '../screen/Signup2';
+import { Signup3 } from '../screen/Signup3';
 import {Signup4} from '../screen/Signup4';
 import { Signup5 } from '../screen/Signup5';
 import { Signup6 } from '../screen/Signup6';
-import { Signup2 } from '../screen/Signup2';
-import { Signup3 } from '../screen/Signup3';
 import { Signup7 } from '../screen/Signup7';
-import { Signup7_3 } from '../screen/Signup7_3';
 import { Signup7_0} from '../screen/Signup7_0';
+import { Signup7_3 } from '../screen/Signup7_3';
 import { Signup7_5} from '../screen/Signup7_5';
-import { Signup1} from '../screen/Signup1';
 import { Signup8} from '../screen/Signup8';
 import { Signup9} from '../screen/Signup9';
+import { Welcome } from '../screen/Welcome';
 
 const Stack = createNativeStackNavigator();
 
