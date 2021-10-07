@@ -8,7 +8,7 @@ export class ContentText extends React.Component{
             <View style={{
                 alignItems:'center',
                 justifyContent:'center',
-                marginTop: h('4%'),
+                marginTop: h('3%'),
             }}>
                 <Text style={{
                 color:'#000000',
