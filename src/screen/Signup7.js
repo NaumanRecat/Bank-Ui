@@ -19,7 +19,7 @@ export class Signup7 extends React.Component{
                 alignItems:'center',
                 justifyContent:'center',
             }}>
-            <Text style={{ marginTop: h('2%')}}>Required to be aproved by the____</Text>
+            <Text style={{ marginTop: h('2%'), fontFamily: 'Poppins', fontWeight:'600'}}>Required to be aproved by the____</Text>
             </View>
             
             <View style={{

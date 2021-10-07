@@ -18,8 +18,9 @@ export class Btn extends React.Component{
                     }}>
                         <Text style={{
                             color:'#FFFFFF',
-                            fontWeight:'bold',
+                            fontWeight:'600',
                             fontSize: 16,
+                            fontFamily: 'Poppins',
                         }}> {this.props.title} </Text>
                     </TouchableOpacity>
             </View>

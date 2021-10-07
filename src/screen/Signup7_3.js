@@ -42,6 +42,7 @@ export class Signup7_3 extends React.Component{
                 <Text numberOfLines={3} style={{
                     fontWeight:'600',
                     fontSize: 13,
+                    fontFamily: 'Poppins',
                 }} >Password must contain 8 characters, 1 uppercase letter, 1 lower case letter, and 1 special character</Text>
                 </View>
                 </View>

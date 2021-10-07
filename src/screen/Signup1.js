@@ -21,7 +21,7 @@ export class Signup1 extends React.Component{
                 style={{
                     paddingLeft: h('5%'),
                 }}>
-                    <Text>  I am a ..........</Text>
+                    <Text style={{fontFamily: 'Poppins'}}>  I am a ..........</Text>
                 </View>
                 <View style={{
                     alignItems:'center',

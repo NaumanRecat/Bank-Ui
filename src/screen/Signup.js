@@ -23,9 +23,10 @@ export class Signup extends React.Component{
 
                     <Text style={{
                         fontSize: 20,
-                        fontWeight:'bold',
+                        fontWeight:'600',
                         marginTop: h('5%'),
                         color:'black',
+                        fontFamily: 'Poppins',
                     }}> Welcome to StatBanking</Text>
                 </View>
                 <View style={{
@@ -46,8 +47,9 @@ export class Signup extends React.Component{
                     }}>
                         <Text style={{
                             color:'white',
-                            fontWeight:'bold',
-                            fontSize: 16,
+                            fontWeight:'600',
+                            fontSize: 24,
+                            fontFamily: 'Poppins',
                         }}> Sign up</Text>
                     </TouchableOpacity>
 
@@ -65,8 +67,9 @@ export class Signup extends React.Component{
                     }}>
                         <Text style={{
                             color:'#000000',
-                            fontWeight:'bold',
-                            fontSize: 16,
+                            fontWeight:'600',
+                            fontSize: 24,
+                            fontFamily: 'Poppins',
                         }}> Log In </Text>
                     </TouchableOpacity>
                 </View>

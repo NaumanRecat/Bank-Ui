@@ -38,8 +38,9 @@ export class Signup4 extends React.Component{
                     }}>
                         <Text style={{
                             color:'#FFFFFF',
-                            fontWeight:'bold',
+                            fontWeight:'600',
                             fontSize: 16,
+                            fontFamily: 'Poppins',
                         }}> Text me</Text>
                     </TouchableOpacity>
 
@@ -57,8 +58,9 @@ export class Signup4 extends React.Component{
                     }}>
                         <Text style={{
                             color:'#FFFFFF',
-                            fontWeight:'bold',
+                            fontWeight:'600',
                             fontSize: 16,
+                            fontFamily: 'Poppins',
                         }}> Email me </Text>
                     </TouchableOpacity>
                 </View>

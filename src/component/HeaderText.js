@@ -13,7 +13,8 @@ export class HeaderText extends React.Component{
                 <Text style={{
                 color:'#2563EA',
                 fontSize: h('3.5%'),
-                fontWeight:'bold',
+                fontWeight:'600',
+                fontFamily: 'Poppins',
             }}> {this.props.titles} </Text>
             </View>
         )

@@ -40,8 +40,9 @@ export class Signup2 extends React.Component{
                     }}>
                         <Text style={{
                             color:'#FFFFFF',
-                            fontWeight:'bold',
+                            fontWeight:'600',
                             fontSize: 16,
+                            fontFamily: 'Poppins',
                         }}> Log In </Text>
                     </TouchableOpacity>
                 </View>
