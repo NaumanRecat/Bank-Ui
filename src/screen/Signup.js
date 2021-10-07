@@ -7,12 +7,10 @@ export class Signup extends React.Component{
         return(
             <View style={{
                 flex:1,
-                // backgroundColor:'#ada',
             }}>
                 <View style={{
                     height:h('20%'),
                     width:w('100%'),
-                    // backgroundColor:'pink',
                     alignItems:'center',
                     marginTop: h('10%'),
                 }}>
@@ -22,7 +20,7 @@ export class Signup extends React.Component{
                     }} source={require('../assests/Sign.png')}  />
 
                     <Text style={{
-                        fontSize: 20,
+                        fontSize: 24,
                         fontWeight:'600',
                         marginTop: h('5%'),
                         color:'black',
@@ -32,7 +30,6 @@ export class Signup extends React.Component{
                 <View style={{
                     height:h('36%'),
                     width:w('100%'),
-                    // backgroundColor:'brown',
                     marginTop: h('33%'),
                     alignItems:'center',
                     justifyContent:'center',
@@ -50,11 +47,11 @@ export class Signup extends React.Component{
                             fontWeight:'600',
                             fontSize: 24,
                             fontFamily: 'Poppins',
-                        }}> Sign up</Text>
+                        }}> SIGN UP</Text>
                     </TouchableOpacity>
 
                     <View style={{
-                        height:h('1%'),
+                        height:h('3%'),
                     }}  />
 
                     <TouchableOpacity onPress={()=>{this.props.navigation.navigate('Signup1')}} style={{
@@ -70,7 +67,7 @@ export class Signup extends React.Component{
                             fontWeight:'600',
                             fontSize: 24,
                             fontFamily: 'Poppins',
-                        }}> Log In </Text>
+                        }}> LOG IN </Text>
                     </TouchableOpacity>
                 </View>
             </View>
