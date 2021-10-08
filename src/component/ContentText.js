@@ -13,7 +13,7 @@ export class ContentText extends React.Component{
                 <Text style={{
                 color:'#000000',
                 fontSize: h('3.7%'),
-                fontWeight:'600',
+                fontWeight:'bold',
                 fontFamily: 'Poppins',
             }}> {this.props.title} </Text>
             </View>
