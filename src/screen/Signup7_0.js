@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
       marginTop: 20,
     },
     Buttonview:{
-      marginTop:h('45%'),
+      marginTop:h('49%'),
       alignItems:'center',
     }
 })

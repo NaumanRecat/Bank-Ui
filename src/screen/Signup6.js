@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
         borderRadius:11,
         alignItems:'center',
         justifyContent:'center',
-        marginTop:h('5%'),
+        marginTop:h('10%'),
     },
     Buttontext:{
         color:'#FFFFFF',
