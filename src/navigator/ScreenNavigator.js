@@ -15,8 +15,9 @@ import { Signup7_3 } from '../screen/Signup7_3';
 import { Signup7_5} from '../screen/Signup7_5';
 import { Signup8} from '../screen/Signup8';
 import { Signup9} from '../screen/Signup9';
-import { Welcome } from '../screen/Welcome';
 import {Signup10} from '../screen/Signup10';
+import { Welcome } from '../screen/Welcome';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -24,7 +25,7 @@ export const ScreenNavigator =()=>  {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-      <Stack.Screen name="Signup10" component={Signup10}  options={{headerShown:false}} />
+      
       <Stack.Screen name="Signup" component={Signup}  options={{headerShown:false}} />
       <Stack.Screen name="Signup1" component={Signup1}  options={{headerShown:false}} />
       <Stack.Screen name="Signup2" component={Signup2}  options={{headerShown:false}} />
@@ -37,7 +38,7 @@ export const ScreenNavigator =()=>  {
       <Stack.Screen name="Signup7_3" component={Signup7_3}  options={{headerShown:false}} />
       <Stack.Screen name="Signup7_5" component={Signup7_5}  options={{headerShown:false}} />
       <Stack.Screen name="Signup8" component={Signup8}  options={{headerShown:false}} />
-      <Stack.Screen name="Signup9" component={Signup9}  options={{headerShown:false}} />
+      <Stack.Screen name="Signup10" component={Signup10}  options={{headerShown:false}} />
       <Stack.Screen name="Welcome" component={Welcome}  options={{headerShown:false}} />
 
       </Stack.Navigator>

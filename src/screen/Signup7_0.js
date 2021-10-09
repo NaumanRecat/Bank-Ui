@@ -7,6 +7,8 @@ import DatePicker from 'react-native-datepicker';
 import {HeaderText} from '../component/HeaderText';
 import {ContentText} from '../component/ContentText';
 import { Btn } from "../component/Btn";
+import { YellowBox } from "react-native";
+YellowBox.ignoreWarnings([""]);
 
 export class Signup7_0 extends React.Component{
 

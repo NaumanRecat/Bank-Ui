@@ -25,7 +25,7 @@ export class Signup7_5 extends React.Component{
             </View>     
             </View>
             <View style={styles.Button}>
-                <Btn Button={() => this.props.navigation.navigate('Signup9')}  title={'Next'}  />
+                <Btn Button={() => this.props.navigation.navigate('Signup10')}  title={'Next'}  />
             </View>
             </View>
         )
