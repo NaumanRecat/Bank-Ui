@@ -12,7 +12,7 @@ export class Signup5 extends React.Component{
                 <HeaderText titles='StatBanking' />
                 <ContentText title="Enter the verification code sent to 555-555-5555" />
             <View style={styles.Textinputview}>
-                <TextInput style={styles.Textinput} placeholder={'Verification Code'} />
+                <TextInput style={styles.Textinput} placeholder={'Verification Code'} placeholderTextColor="#000000"  />
             </View>
             <View style={styles.BelowButtonview}>
                 <TouchableOpacity onPress={()=>{this.props.navigation.navigate('Signup6')}} style={styles.Button}>

@@ -13,15 +13,15 @@ export class Signup7_5 extends React.Component{
             <View>
                 <HeaderText titles={'Choose a Plan'} />
             <View style={styles.inputtextcontainer}>
-                <TextInput placeholder={'Varcity Plan'} style={styles.input1}/>
+                <TextInput placeholderTextColor="#000000"  placeholder={'Varcity Plan'} style={styles.input1}/>
             <View style={styles.seprator} />
-                <TextInput placeholder={'Varcity Plan'} style={styles.input1}/>
+                <TextInput placeholderTextColor="#000000" placeholder={'Varcity Plan'} style={styles.input1}/>
             <View style={styles.seprator} />
-                <TextInput placeholder={'Varcity Plan'} style={styles.input1}/>
+                <TextInput placeholderTextColor="#000000" placeholder={'Varcity Plan'} style={styles.input1}/>
             <View style={styles.seprator} />
             <View>
-                <TextInput placeholder={'Promo Code (Optional)'} style={styles.textinput4}/>
-                <TextInput placeholder={'Referral Code (Optional)'} style={styles.input5}/>       
+                <TextInput placeholderTextColor="#000000" placeholder={'Promo Code (Optional)'} style={styles.textinput4}/>
+                <TextInput placeholderTextColor="#000000" placeholder={'Referral Code (Optional)'} style={styles.input5}/>       
             </View>     
             </View>
             <View style={styles.Button}>
@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
         width: w('85%'),
         borderWidth: h('0.08%'),
         borderRadius: h('2%'), 
+        
     },
     seprator:{
         height: h('2%'),

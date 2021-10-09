@@ -10,7 +10,7 @@ export class Welcome extends React.Component{
             <View style={styles.parent}>
                 <HeaderText titles={'WELCOME TO STAT BANKING'}/>
             <View style={styles.maincontainer}>
-                <Text> Empty Screen </Text>
+                <Text style={styles.Text}> Empty Screen </Text>
             </View></View>
         )
     }
@@ -24,5 +24,8 @@ const styles = StyleSheet.create({
         width: w('100%'),
         alignItems:'center',
         justifyContent:'center',
+    },
+    Text:{
+        color:'#000000',
     }
 })

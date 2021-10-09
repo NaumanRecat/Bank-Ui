@@ -21,7 +21,7 @@ export class Signup10 extends React.Component{
         return(
             <View style={styles.parent}>
                 <HeaderText titles={'Tell us about your sport'} />
-            <View style={styles.Label1} ><Text>Label 1</Text></View>
+            <View style={styles.Label1} ><Text style={styles.txt}>Label 1</Text></View>
             <View style={styles.Dropdownview}>    
                 <Dropdown
                     name='rowing' 
@@ -31,7 +31,7 @@ export class Signup10 extends React.Component{
                     containerStyle={{
                     marginTop: -h('1%'), }} />
             </View>
-            <View style={styles.Label2}><Text>Label 1</Text></View>
+            <View style={styles.Label2}><Text style={styles.txt} >Label 1</Text></View>
             <View style={styles.Dropdownview}>   
                 <Dropdown
                     icon='arrow-down'
@@ -41,7 +41,7 @@ export class Signup10 extends React.Component{
                     containerStyle={{
                     marginTop: -h('1%'), }} />
             </View>
-            <View style={styles.Label3}><Text>Label 1</Text></View>
+            <View style={styles.Label3}><Text style={styles.txt} >Label 1</Text></View>
             <View style={styles.Dropdownview}>      
                 <Dropdown
                     icon='arrow-down'
@@ -69,7 +69,10 @@ const styles = StyleSheet.create({
   },
   Label1:{
     paddingLeft: h('5%'),
-    marginTop: h('6%')
+    marginTop: h('6%'),  
+  },
+  txt:{
+    color:'#000000',
   },
   Dropdownview:{
     height: h('9%'),

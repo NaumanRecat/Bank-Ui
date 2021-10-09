@@ -20,6 +20,7 @@ export class Input extends React.Component{
                 marginBottom: h('5%'),
             }}
             placeholder={this.props.placeholder}
+            placeholderTextColor="#000000"
             />
             </View>
         )

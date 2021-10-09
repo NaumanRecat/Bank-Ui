@@ -18,8 +18,8 @@ export class Signup1 extends React.Component{
                 <Text style={styles.Textstylefont}>  I am a ..........</Text>
                 </View>
                 <View style={styles.TextInputView}>            
-                <TextInput numberOfLines={10} placeholder={'Person'} style={styles.TextInput1}/>
-                <TextInput  numberOfLines={10} placeholder={'Business'} style={styles.TextInput2}/>
+                <TextInput placeholderTextColor="#000000"  numberOfLines={10} placeholder={'Person'}  style={styles.TextInput1}/>
+                <TextInput placeholderTextColor="#000000"  numberOfLines={10} placeholder={'Business'} style={styles.TextInput2}/>
                 </View>
                 <View style={styles.ButtonView}>
                 <Btn Button={() => this.props.navigation.navigate('Signup2')} title={'Next'} />
@@ -38,7 +38,8 @@ const styles = StyleSheet.create({
         paddingLeft: h('5%'),
     },
     Textstylefont:{
-        fontFamily: 'Poppins'
+        fontFamily: 'Poppins',
+        color:"#000000",
     },
     TextInputView:{
         alignItems:'center',

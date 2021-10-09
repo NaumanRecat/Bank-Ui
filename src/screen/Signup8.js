@@ -43,7 +43,7 @@ export class Signup8  extends React.Component{
                 <CheckBox
                 onClick={()=>{this.check('I agree to the terms and conditions of ....')}}
                 isChecked={this.state.isChecked}
-                rightText={"I agree to the terms and conditions of ...."} />
+                rightText={"I agree to the terms and conditions of ...."}/>
             <View style={styles.Button}>
             <Btn Button={() => this.props.navigation.navigate('Signup7_3')}  title={'Confirm'} />
             </View>
@@ -72,6 +72,7 @@ const styles = StyleSheet.create({
     fontWeight:'600',
     fontSize: 18,
     fontFamily: 'Poppins',
+    color:'#000000'
   },
   checkboxstyle:{
     height:h('5%'),
