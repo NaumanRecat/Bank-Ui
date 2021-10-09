@@ -57,6 +57,6 @@ const styles = StyleSheet.create({
     },
     Button:{
         alignItems:'center',
-        marginTop: h('15%'),
+        marginTop: h('6%'),
     }
 })
