@@ -41,6 +41,7 @@ export class Signup8  extends React.Component{
             </View></View>
             <View style={styles.checkboxstyle}>
                 <CheckBox
+                checkBoxColor={'Re'}
                 onClick={()=>{this.check('I agree to the terms and conditions of ....')}}
                 isChecked={this.state.isChecked}
                 rightText={"I agree to the terms and conditions of ...."}/>
