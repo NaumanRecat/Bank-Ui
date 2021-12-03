@@ -2,8 +2,44 @@ import React from "react";
 import {View, Text, Image, TouchableOpacity, StyleSheet} from 'react-native';
 import {widthPercentageToDP as w, heightPercentageToDP as h} from 'react-native-responsive-screen';
 import {ContentText} from '../component/ContentText';
+import PushNotification from "react-native-push-notification";
 
 export class Signup extends React.Component{
+
+    componentDidMount = () => {
+      
+        this.createChannels();
+      };
+
+createChannels =()=>{
+       PushNotification.createChannel(
+           {
+               channelId:"test-channel",
+               channelName:"Test-channel"
+           }
+       )
+}
+
+handleNotification=()=>{
+    PushNotification.localNotification({
+        channelId:"test-channel",
+        title:"Kinza ",
+        message: "hi gow adww biy",     
+    });
+    PushNotification.localNotificationSchedule({
+        channelId: "test-channel",
+        title:"Alram",
+        message:"Hi how are you",
+        date: new Date(Date.now() + 20*1000),
+        allowWhileIdle:'true',
+    });
+}
+
+
+
+
+
+
     render(){
         return(
             <View style={styles.ParentView}>
@@ -18,7 +54,9 @@ export class Signup extends React.Component{
 
                     <View style={styles.Seprator}  />
 
-                    <TouchableOpacity onPress={()=>{this.props.navigation.navigate('Signup1')}} 
+                    <TouchableOpacity onPress={()=>{
+                   this.handleNotification()
+               }}
                     style={styles.LoginView}>
                         <Text style={styles.LoginText}> LOG IN </Text>
                     </TouchableOpacity>
