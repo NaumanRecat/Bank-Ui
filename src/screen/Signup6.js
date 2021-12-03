@@ -33,14 +33,14 @@ const styles = StyleSheet.create({
     inputview:{
         marginTop:h('6%'),
     },
-    ButtonView:{
+ButtonView:{
         height:h('8%'),
         width:w('70%'),
         backgroundColor:'#2563EA',
         borderRadius:11,
         alignItems:'center',
         justifyContent:'center',
-        marginTop:h('10%'),
+        marginTop:h('5%'),
     },
     Buttontext:{
         color:'#FFFFFF',
